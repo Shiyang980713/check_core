@@ -44,7 +44,7 @@ class Fudan:
     """
     建立与复旦服务器的会话，执行登录/登出操作
     """
-    UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0"
+    UA = "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
 
     # 初始化会话
     def __init__(self,
@@ -258,7 +258,7 @@ def get_account():
     if len(IYUU_TOKEN) == 4:
         # https://tool.oschina.net/encrypt?type=2
         Check_value = IYUU_TOKEN.pop()
-        statement = f'{uid}认同平安复旦对抗疫的重要意义，将自觉遵守防疫政策；{uid}仅在长期停留原处时使用本代码以减少不必要的劳动；{uid}如有出行，将立即手动更新自己的位置信息；如出现任何违反防疫政策的行为，{uid}同意自己承担全部责任。'
+        statement = f'fuck you'
         Check_value = (sha256(statement, True) == Check_value)
     return uid, psw, IYUU_TOKEN
 
