@@ -44,7 +44,7 @@ class Fudan:
     """
     建立与复旦服务器的会话，执行登录/登出操作
     """
-    UA = "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Mobile Safari/537.36"
+    UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 MicroMessenger/7.0.18(0x17001231) NetType/WIFI Language/zh_CN"
 
     # 初始化会话
     def __init__(self,
