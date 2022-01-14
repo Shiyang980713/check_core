@@ -5,7 +5,8 @@ from geo_disturbance import geoDisturbance
 from captcha_break import DailyFDCaptcha
 
 gl_info = "快去手动填写！"
-url_login = r'https://uis.fudan.edu.cn/authserver/login?service=https%3A%2F%2Fzlapp.fudan.edu.cn%2Fa_fudanzlapp%2Fapi%2Fsso%2Findex%3Fredirect%3Dhttps%253A%252F%252Fzlapp.fudan.edu.cn%252Fsite%252Fncov%252FfudanDaily%26from%3Dwap'
+
+url_login = r'https://uis.fudan.edu.cn/authserver/login?service=https%3A%2F%2Fzlapp.fudan.edu.cn%2Fa_fudanzlapp%2Fapi%2Fsso%2Findex%3Fredirect%3Dhttps%253A%252F%252Fzlapp.fudan.edu.cn%252Fsite%252Fncovfudan%252Fdaily%26from%3Dwap'
 url_info = r'https://zlapp.fudan.edu.cn/ncov/wap/fudan/get-info?vpn-12-o2-zlapp.fudan.edu.cn'
 
 def set_q(iterO):
